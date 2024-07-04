@@ -128,12 +128,26 @@
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+  "certificates": [
+    {
+    "name": "Scality Advanced Operations",
+    "date": "14-03-2019",
+    "issuer": "Scality",
+    "url": "https://images.credential.net/embed/4vf9j4bq.png"
+  },
+  {
+    "name": "VMware vSphere: Install, Configure, Manage [V6.5]",
+    "date": "07-07-2017",
+    "issuer": "HPE",
+    "url": "https://media.licdn.com/dms/image/C512DAQGJ1kSF2JhIxg/profile-treasury-image-shrink_800_800/0/1601378707528?e=1720728000&v=beta&t=L9wfmx_Lp88lQNY8fypFFdvT82isSHMAzSO25TIyJJw"
+  },
+  {
+    "name": "HPE Hyper Converged System Administration",
+    "date": "24-08-2017",
+    "issuer": "HPE",
+    "url": "https://media.licdn.com/dms/image/C512DAQEOrk5PVYITFQ/profile-treasury-image-shrink_800_800/0/1602185916499?e=1720728000&v=beta&t=MwBkxtQ1o8SDOS5SYRMOLDFrnMtYSSonGRCFfVEg2v0"
+  }
+],
   "publications": [{
     "name": "Publication",
     "publisher": "Company",
@@ -142,6 +156,20 @@
     "summary": "Description…"
   }],
   "skills": [
+    {
+      "name": "Docker",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
     {
       "name": "Python",
       "level": "Master",

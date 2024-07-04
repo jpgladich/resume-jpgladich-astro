@@ -3,6 +3,8 @@ title: "My Skills"
 description: "This is the skills file"
 
 import Section from "../Section.astro"
+import Docker from "@/icons/docker.astro"
+import Kubernetes from "@/icons/kubernetes.astro"
 import Python from "@/icons/python.astro"
 import Bash from "@/icons/bash.astro"
 import C from "@/icons/c.astro"
@@ -26,6 +28,8 @@ import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
+  Docker,
+  Kubernetes,
   Python,
   Bash,
   C,
@@ -77,7 +81,7 @@ const SKILLS_ICONS: Record<string, any> = {
     align-items: center;
     background: #eee;
     border-radius: 6px;
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     font-size: 0.8rem;
     font-weight: 500;
