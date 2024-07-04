@@ -4,5 +4,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     output: 'static',
     base: 'resume-jpgladich-astro',
-    site: 'https://jpgladich.github.io',
+    site: 'https://jpgladich.github.io/',
 });
