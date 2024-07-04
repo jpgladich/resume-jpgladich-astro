@@ -1,0 +1,336 @@
+{
+  "basics": {
+    "name": "Juan Pablo Obregón Gladich",
+    "label": "Devops Engineer, System Administrator UNIX/Linux/Windows, Network Administrator, and Software developer",
+    "image": "/me.webp",
+    "email": "jpgladich@gmail.com",
+    "phone": "+54 9 11 ****-****",
+    "url": "https://",
+    "summary": "Soy Devops Engineer, System Administrator, Network Administrator y Software Developer con 20 años de experiencia y una profunda pasión por la tecnología. Mi trayectoria abarca desde la administración de sistemas y redes hasta el desarrollo de software, lo que me permite ofrecer soluciones integrales y eficientes en cada proyecto que emprendo. Además de mi interés profesional, soy amante de los animales y la música, lo que refleja mi capacidad para encontrar equilibrio y creatividad tanto en mi vida personal como profesional. Estoy siempre en búsqueda de nuevos desafíos que me permitan seguir creciendo y aportando valor a través de la tecnología.",
+    "location": {
+      "address": "",
+      "postalCode": "1706",
+      "city": "Buenos Aires",
+      "countryCode": "ES",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "juan-pablo-gladich-obregon-14926a10b",
+        "url": "https://ar.linkedin.com/in/juan-pablo-gladich-obregon-14926a10b"
+      },
+      {
+        "network": "X",
+        "username": "jpgladich",
+        "url": "https://x.com/in/jpgladich"
+      },
+      {
+        "network": "GitHub",
+        "username": "jpgladich",
+        "url": "https://github.com/jpgladich"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Alpha Research Deutschland GmbH · Berlín, Alemania · Profesional independiente (Remoto)",
+      "position": "DevOps Engineer, Azure Cloud Architect",
+      "startDate": "2019",
+      "endDate": null,
+      "summary": "Desarrollé una arquitectura de nube en Azure para una empresa de investigación en medicina. Implementé una infraestructura de alta disponibilidad y escalabilidad para soportar el crecimiento de la empresa. Automatizé los procesos de despliegue y monitoreo para mejorar la eficiencia y la calidad del servicio.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Agencia Nacional de Noticias Télam SE",
+      "position": "DevOps Engineer, Administrador de sistemas, GCP Cloud Architect, Developer",
+      "url": "https://telam.com.ar",
+      "startDate": "2011",
+      "endDate": "2025",
+      "summary": "Creación de una arquitectura de nube en Google Cloud Platform para una agencia de noticias. Desarrollo de infraestructura de alta disponibilidad y escalabilidad para sustentar el crecimiento organizacional. Automatización de procesos de despliegue y monitoreo para mejorar la eficiencia operativa y la calidad del servicio.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "GRUPO GESFOR – LOGICA COMPANY EN TELAM S.E.",
+      "position": "Área de Sistemas, Informáticas y Comunicaciones. Sector Infraestructura.",
+      "url": "",
+      "startDate": "2009",
+      "endDate": "2012",
+      "summary": "Administrador de Sistemas en el sector de infraestructura sistemas y comunicaciones.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Sede Carrefour Argentina",
+      "position": "Encargado de Laboratorio de Sistemas",
+      "url": "",
+      "startDate": "2007",
+      "endDate": "2009",
+      "summary": "Administración de 126 servidores (uno por sucursal) y más de 30 estaciones de trabajo por sucursal. Gestión de 6 servidores independientes para el sistema de tarjetas de crédito. Atención y soporte a más de 6000 usuarios. Instalación, Soporte y Actualizaciones en sistema de cajas POS. Administrador, Implementación y mantenimiento de Sistema Garantía extendida – control de interfaces. Encargado del mantenimiento de aplicativo de tarjetas de créditos financieros CARREFOUR entidad CETELEM. Administrador en Sistema de Tarjetas de Crédito multiplataforma (Windows – UNIX). Soporte, Control de procesos y transacciones en Servidor Pago Fácil. " ,
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Hasar Sistemas",
+      "position": "Analista de soporte de aplicaciones",
+      "url": "https://grupohasar.com/",
+      "startDate": "2006",
+      "endDate": "2008",
+      "summary": "Proyecto Intellicard Autorizador de tarjetas de crédito con base en laboratorio de clientes como Disco y Walmart.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Repsol - YPF",
+      "position": "Analista de soporte de aplicaciones",
+      "url": "",
+      "startDate": "2005",
+      "endDate": "2007",
+      "summary": "Implementación Software ERP \"DEBO\" en la Red Nacional de Estaciones de servicio REPSOL-YPF. Instalación, configuración de surtidores, terminales, usuarios, permisos, puesta en marcha y capacitación de usuarios.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "",
+    "position": "",
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universidad Nacional de La Matanza",
+    "url": "https://www.unlam.edu.ar/",
+    "area": "Ingeniería en Informática",
+    "studyType": "Ingeniería",
+    "startDate": "2001",
+    "endDate": "2006",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "C",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Powershell",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "MongoDB", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "Use ChatGPT API from python",
+      "isActive": true,
+      "description": "App de consola para interactuar con la API de ChatGPT desde Python",
+      "highlights": [
+        "100% libre"
+      ],
+      "github": "https://github.com/jpgladich/api_chatgpt"
+    },
+    {
+      "name": "Scraping MercadoLibre",
+      "isActive": true,
+      "description": "Scraping de productos de MercadoLibre con datos de precios en dolares y pesos al cambio no oficial",
+      "highlights": [
+        "100% libre"
+      ],
+      "github": "https://github.com/jpgladich/ml_scraper"
+    },
+    {
+      "name": "Search Vuln",
+      "isActive": true,
+      "description": "Herramienta de línea de comandos sin conexión que busca archivos binarios [GTFOBins](https://gtfobins.github.io/) que pueden usarse para eludir las restricciones de seguridad locales en sistemas mal configurados.",
+      "highlights": [
+        "Privado"
+      ],
+      "github": ""
+    },
+    {
+      "name": "Finanzas, gráficos y análisis",
+      "isActive": true,
+      "description": "App frontend y backend para análisis de finanzas y gráficos, bot de telegram para alertas de precios, variaciones y análisis de mercado. Dollar Blue, Bitcoin, Ethereum, etc.",
+      "highlights": [
+        "Privado"
+      ],
+      "github": ""
+    },
+    {
+      "name": "Chatbot IA",
+      "isActive": true,
+      "description": "Chatbot IA con lenguaje natural, entrenado con GPT-3, para responder preguntas de tecnicos de sistemas y redes como ayuda de soporte.",
+      "highlights": [
+        "Privado"
+      ],
+      "github": ""
+    },
+    {
+      "name": "Nmap scripting .nse",
+      "isActive": true,
+      "description": "Scripts de Nmap para automatizar tareas de escaneo de red y análisis de vulnerabilidades.",
+      "highlights": [
+        "Privado"
+      ],
+      "github": ""
+    }
+
+  ]
+}
