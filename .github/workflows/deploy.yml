@@ -24,6 +24,10 @@ jobs:
         uses: pnpm/action-setup@v3
         with:
           version: 7.0.0 # Especifica la versión de pnpm que necesitas
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build the project
+        run: pnpm build
       - name: Install, build, and upload your site
         uses: withastro/action@v2
 
