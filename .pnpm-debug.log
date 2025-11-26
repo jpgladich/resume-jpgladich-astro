@@ -1,0 +1,134 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "minimalist-portfolio-json",
+      "type": "module",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+      },
+      "dependencies": {
+        "@astrojs/check": "^0.9.6",
+        "hotkeypad": "0.1.0",
+        "typescript": "5.3.3"
+      },
+      "devDependencies": {
+        "astro": "^5.16.1"
+      },
+      "packageManager": "pnpm@7.0.0"
+    },
+    "prefix": "/Volumes/HP-EX950/Personal/Resume_cv_gitpages_dist/resume-jpgladich-astro"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Volumes/HP-EX950/.pnpm-store/v3",
+    "virtualStoreDir": "/Volumes/HP-EX950/Personal/Resume_cv_gitpages_dist/resume-jpgladich-astro/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Volumes/HP-EX950/Personal/Resume_cv_gitpages_dist/resume-jpgladich-astro",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/astro"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@astrojs%2Fcheck"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/hotkeypad"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/typescript"
+  },
+  "8 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/astro"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@astrojs%2Fcheck"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/hotkeypad"
+  },
+  "11 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/typescript"
+  },
+  "12 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": ">=5.16.1 <6.0.0-0",
+      "name": "astro",
+      "type": "range"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/astro: Value of \"this\" must be of type URLSearchParams",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npmjs.org/astro: Value of \"this\" must be of type URLSearchParams\n    at RetryOperation._fn (/Users/jpg/Library/pnpm/.tools/pnpm/7.0.0_tmp_6550/node_modules/pnpm/dist/pnpm.cjs:84251:19)"
+    }
+  }
+}
