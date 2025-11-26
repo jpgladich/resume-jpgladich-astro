@@ -10,31 +10,31 @@ import { work } from "@cv"
   <ul>
     {
       work.map(({ name, startDate, endDate, position, summary, highlights, url }) => {
-        const startYear = new Date(startDate).getFullYear() + 1
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
+        const startYear = startDate;
+        const endYear = endDate ?? "Actual";
+
 
         return (
-          <li>
+          <li key={name}>
             <article>
-              <header>
+              <header style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap" }}>
                 <div>
                   <h3>
-                    <a href={url} title={`Ver ${name}`} target="_blank">
-                      {name}
-                    </a>
+                    {url ? (
+                      <a href={url} title={`Ver ${name}`} target="_blank">
+                        {name}
+                      </a>
+                    ) : (
+                      name
+                    )}
                   </h3>
-                  <br/>
                   <h4>&bull; {position}</h4>
                 </div>
 
-                <div>
-                  <time datetime={startDate} data-title={startDate}>
-                    {startYear}
-                  </time>{" - "}
-                  <time datetime={endDate} data-title={endDate}>
-                    {endYear}
-                  </time>
-                </div>
+              <div>
+                <time dateTime={startDate}>{startYear}</time> - <time dateTime={endDate}>{endYear}</time>
+              </div>
+
               </header>
 
               <footer>
@@ -47,6 +47,8 @@ import { work } from "@cv"
     }
   </ul>
 </Section>
+
+
 
 <style>
   ul {
