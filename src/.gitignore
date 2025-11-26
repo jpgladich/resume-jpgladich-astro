@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # local folders
 .history
+
+# IDE/editor folders
+.vscode/
