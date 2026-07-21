@@ -1,12 +1,18 @@
 {
   "basics": {
     "name": "Juan Pablo Obregón Gladich",
-    "label": "Devops Engineer, System Administrator UNIX/Linux/Windows, Network Administrator, and Software developer",
+    "label": "Senior DevOps Engineer | Cloud Architect | DevSecOps | Platform Engineering",
     "image": "https://jpgladich.github.io/resume-jpgladich-astro/me.webp",
     "email": "jpgladich@gmail.com",
     "phone": "+54 9 11 ****-****",
     "url": "https://",
-    "summary": "Soy Devops Engineer, System Administrator, Network Administrator y Software Developer con 20 años de experiencia y una profunda pasión por la tecnología. Mi trayectoria abarca desde la administración de sistemas y redes hasta el desarrollo de software, lo que me permite ofrecer soluciones integrales y eficientes en cada proyecto que emprendo. Además de mi interés profesional, soy amante de los animales y la música, lo que refleja mi capacidad para encontrar equilibrio y creatividad tanto en mi vida personal como profesional. Estoy siempre en búsqueda de nuevos desafíos que me permitan seguir creciendo y aportando valor a través de la tecnología.",
+    "summary": "DevOps Engineer y Arquitecto Cloud con más de 20 años de experiencia diseñando, implementando y administrando infraestructuras tecnológicas para organizaciones de gran escala en los sectores de salud, investigación científica, medios de comunicación y retail. Especializado en arquitecturas híbridas y Cloud sobre Microsoft Azure y Google Cloud Platform, administración de plataformas Linux y Windows, virtualización, contenedores, automatización, redes empresariales y ciberseguridad. A lo largo de mi carrera he liderado proyectos de transformación digital, migraciones hacia la nube, modernización de infraestructura, automatización de procesos y fortalecimiento de la seguridad informática, colaborando con equipos multidisciplinarios y acompañando la evolución tecnológica de organizaciones con miles de usuarios. Mi experiencia combina una sólida capacidad técnica con visión estratégica para diseñar plataformas altamente disponibles, resilientes y seguras, orientadas a optimizar costos, mejorar la continuidad operativa y acelerar la entrega de servicios.",
+    "paragraphs": [
+      "DevOps Engineer y Arquitecto Cloud con más de <strong>10 años de experiencia</strong> diseñando, implementando y administrando infraestructuras tecnológicas para organizaciones de gran escala en los sectores de salud, investigación científica, medios de comunicación y retail.",
+      "Especializado en arquitecturas híbridas y Cloud sobre Microsoft Azure y Google Cloud Platform, administración de plataformas Linux y Windows, virtualización, contenedores, automatización, redes empresariales y ciberseguridad.",
+      "A lo largo de mi carrera he liderado proyectos de transformación digital, migraciones hacia la nube, modernización de infraestructura, automatización de procesos y fortalecimiento de la seguridad informática, colaborando con equipos multidisciplinarios y acompañando la evolución tecnológica de organizaciones con miles de usuarios.",
+      "Mi experiencia combina una sólida capacidad técnica con visión estratégica para diseñar plataformas altamente disponibles, resilientes y seguras, orientadas a optimizar costos, mejorar la continuidad operativa y acelerar la entrega de servicios."
+    ],
     "location": {
       "address": "",
       "postalCode": "1706",
@@ -32,91 +38,253 @@
       }
     ]
   },
+  "skill": {
+    "groups": [
+      {
+        "name": "Cloud",
+        "items": [
+          "Microsoft Azure",
+          "Google Cloud Platform (GCP)"
+        ]
+      },
+      {
+        "name": "Contenedores y Orquestación",
+        "items": [
+          "Docker",
+          "Docker Compose",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "Sistemas Operativos",
+        "items": [
+          "Linux",
+          "Ubuntu",
+          "Debian",
+          "CentOS",
+          "Red Hat Enterprise Linux",
+          "Windows Server"
+        ]
+      },
+      {
+        "name": "Virtualización",
+        "items": [
+          "VMware vSphere",
+          "VMware ESXi"
+        ]
+      },
+      {
+        "name": "Automatización y Scripting",
+        "items": [
+          "Python",
+          "Bash",
+          "PowerShell",
+          "Shell Scripting"
+        ]
+      },
+      {
+        "name": "Infraestructura y Networking",
+        "items": [
+          "TCP/IP",
+          "DNS",
+          "DHCP",
+          "VPN",
+          "Routing & Switching",
+          "Nginx",
+          "HAProxy",
+          "Reverse Proxy",
+          "Load Balancing"
+        ]
+      },
+      {
+        "name": "Seguridad",
+        "items": [
+          "DevSecOps",
+          "Hardening",
+          "Vulnerability Assessment",
+          "OWASP",
+          "ModSecurity",
+          "OWASP Core Rule Set (CRS)",
+          "Web Application Firewall (WAF)"
+        ]
+      },
+      {
+        "name": "Bases de Datos",
+        "items": [
+          "MySQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Desarrollo",
+        "items": [
+          "Python",
+          "PHP",
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      {
+        "name": "Control de Versiones",
+        "items": [
+          "Git",
+          "GitHub"
+        ]
+      }
+    ]
+  },  
   "work": [
     {
       "name": "DASA",
-      "position": "Senior Consultant Technical Lead and Security Specialist",
+      "position": "Senior Consultant Technical Lead & Security Specialist",
       "startDate": "2024",
       "endDate": null,
-      "summary": "Acompaño a DASA en su transformación digital, implementando tecnologías innovadoras y fortaleciendo la infraestructura IT. Trabajo transversalmente con equipos técnicos y operativos para mejorar la eficiencia, facilitar el trabajo diario y promover un entorno colaborativo y escalable. Además, impulso prácticas de seguridad informática orientadas a proteger los activos digitales, garantizar la continuidad operativa y asegurar que cada iniciativa tecnológica esté alineada con estándares y buenas prácticas de ciberseguridad.",
+      "summary": "Lidero iniciativas de transformación digital, modernización de infraestructura y fortalecimiento de la seguridad informática para una de las principales organizaciones del sector salud. Trabajo en conjunto con equipos de infraestructura, desarrollo, operaciones y negocio para diseñar soluciones tecnológicas escalables, resilientes y alineadas con las mejores prácticas de la industria.",
       "highlights": [
-        "Started the company"
-      ]
+        "Liderazgo técnico de proyectos estratégicos de infraestructura.",
+        "Diseño de arquitecturas seguras y altamente disponibles.",
+        "Implementación de controles de seguridad y mejores prácticas de ciberseguridad.",
+        "Automatización de procesos operativos para reducir tiempos de implementación.",
+        "Evaluación de vulnerabilidades y definición de planes de mitigación.",
+        "Optimización del rendimiento y disponibilidad de plataformas críticas.",
+        "Acompañamiento técnico a equipos multidisciplinarios."
+      ],
+      "technologies": ["Azure", "Linux", "Windows Server", "Docker", "Networking", "Seguridad", "Python", "Bash"]
     },
     {
       "name": "Labmedicina",
-      "position": "Senior Consultant Technical Lead and Security Specialist",
+      "position": "Senior Consultant Technical Lead & Security Specialist",
       "startDate": "2024",
       "endDate": null,
-      "summary": "Como Consultor Técnico Sénior superviso aspectos críticos de la infraestructura y los servicios de TI, incluyendo el diseño, configuración y mantenimiento de la infraestructura de red, garantizando un rendimiento, seguridad y escalabilidad óptimos, así como la implementación de medidas de seguridad para proteger sistemas y datos, realizando evaluaciones de vulnerabilidades y análisis de riesgos.",
+      "summary": "Responsable del diseño, administración y evolución de la infraestructura tecnológica que soporta servicios críticos del sector salud, garantizando disponibilidad, rendimiento y seguridad.",
       "highlights": [
-        "Started the company"
-      ]
+        "Diseño de infraestructura escalable y tolerante a fallos.",
+        "Administración de redes corporativas.",
+        "Implementación de políticas de seguridad informática.",
+        "Evaluaciones periódicas de vulnerabilidades.",
+        "Optimización del rendimiento de plataformas críticas.",
+        "Definición de estándares técnicos para infraestructura."
+      ],
+      "technologies": ["Azure", "Linux", "Docker", "Networking", "Seguridad", "Bash", "Python"]
     },  
     {
-      "name": "Alpha Research Deutschland GmbH · Berlín, Alemania · Profesional independiente",
-      "position": "DevOps Engineer, Azure Cloud Architect",
+      "name": "Alpha Research Deutschland GmbH — Alemania",
+      "position": "DevOps Engineer | Azure Cloud Architect",
       "startDate": "2019",
       "endDate": "2024",
-      "summary": "Desarrollé una arquitectura de nube en Azure para una empresa de investigación en medicina. Implementé una infraestructura de alta disponibilidad y escalabilidad para soportar el crecimiento de la empresa. Automatizé los procesos de despliegue y monitoreo para mejorar la eficiencia y la calidad del servicio.",
+      "summary": "Diseñé e implementé la infraestructura Cloud sobre Microsoft Azure para una empresa dedicada a la investigación médica, acompañando el crecimiento de la organización mediante una plataforma moderna, escalable y altamente disponible. Participé activamente en la definición de la arquitectura tecnológica, automatización de procesos operativos y optimización continua del entorno Cloud.",
       "highlights": [
-        "Started the company"
-      ]
+        "Diseño de arquitectura Cloud escalable sobre Microsoft Azure.",
+        "Implementación de plataformas altamente disponibles.",
+        "Automatización de despliegues y tareas operativas.",
+        "Optimización de monitoreo y administración de infraestructura.",
+        "Reducción de tiempos de implementación mediante automatización.",
+        "Colaboración con equipos internacionales de desarrollo e infraestructura."
+      ],
+      "technologies": ["Microsoft Azure", "Linux", "Docker", "Python", "Bash", "Networking", "Cloud Architecture", "DevOps"]
     },
     {
-      "name": "Agencia Nacional de Noticias Télam SE",
-      "position": "DevOps Engineer, Administrador de sistemas, GCP Cloud Architect, Developer",
+      "name": "Agencia Nacional de Noticias Télam S.E.",
+      "position": "DevOps Engineer | Cloud Architect | System Administrator",
       "url": "https://telam.com.ar",
       "startDate": "2011",
       "endDate": "2023",
-      "summary": "Creación de una arquitectura de nube en Google Cloud Platform para una agencia de noticias. Desarrollo de infraestructura de alta disponibilidad y escalabilidad para sustentar el crecimiento organizacional. Automatización de procesos de despliegue y monitoreo para mejorar la eficiencia operativa y la calidad del servicio.",
+      "summary": "Responsable del diseño, implementación y administración de la infraestructura tecnológica de una de las principales agencias nacionales de noticias, liderando iniciativas de modernización, virtualización, automatización y migración hacia Google Cloud Platform. Participé en proyectos estratégicos de transformación tecnológica orientados a mejorar la disponibilidad, escalabilidad y seguridad de los servicios corporativos.",
       "highlights": [
-        "Started the company"
-      ]
+        "Diseño e implementación de arquitecturas sobre Google Cloud Platform.",
+        "Administración de infraestructura Linux y Windows.",
+        "Implementación de plataformas de alta disponibilidad.",
+        "Automatización de procesos operativos y despliegues.",
+        "Administración de redes, almacenamiento y virtualización.",
+        "Implementación de políticas de seguridad informática.",
+        "Soporte a plataformas críticas de producción.",
+        "Coordinación técnica con proveedores y equipos internos.",
+        "Optimización continua del rendimiento de infraestructura."
+      ],
+      "achievements": [
+        "Lideré la modernización de infraestructura incorporando servicios Cloud.",
+        "Implementé soluciones de alta disponibilidad para servicios críticos.",
+        "Automaticé tareas operativas reduciendo tiempos de mantenimiento.",
+        "Mejoré la disponibilidad y resiliencia de la plataforma tecnológica.",
+        "Participé en proyectos estratégicos de infraestructura durante más de una década."
+      ],
+      "technologies": ["Google Cloud Platform (GCP)", "Linux", "Windows Server", "Docker", "VMware", "Python", "Bash", "PowerShell", "MySQL", "Networking", "HAProxy", "Nginx", "Cloud Architecture"]
     },
     {
-      "name": "GRUPO GESFOR – LOGICA COMPANY EN TELAM S.E.",
-      "position": "Área de Sistemas, Informáticas y Comunicaciones. Sector Infraestructura.",
+      "name": "Grupo Gesfor – Logica Company",
+      "position": "System Administrator",
       "url": "",
       "startDate": "2009",
       "endDate": "2011",
-      "summary": "Administrador de Sistemas en el sector de infraestructura sistemas y comunicaciones.",
+      "summary": "Administrador de Sistemas dentro del área de Infraestructura y Comunicaciones, responsable de la operación diaria de plataformas críticas, redes corporativas y servicios tecnológicos.",
       "highlights": [
-        "Started the company"
-      ]
+        "Administración de servidores Linux y Windows.",
+        "Gestión de infraestructura de comunicaciones.",
+        "Administración de redes corporativas.",
+        "Mantenimiento preventivo y correctivo.",
+        "Resolución de incidentes de infraestructura.",
+        "Optimización de disponibilidad de servicios."
+      ],
+      "technologies": ["Linux", "Windows Server", "VMware", "Networking", "TCP/IP", "DNS", "Active Directory"]
     },
     {
-      "name": "Sede Carrefour Argentina",
-      "position": "Encargado de Laboratorio de Sistemas",
+      "name": "Carrefour Argentina",
+      "position": "Systems Laboratory Manager",
       "url": "",
       "startDate": "2007",
       "endDate": "2009",
-      "summary": "Administración de 126 servidores (uno por sucursal) y más de 30 estaciones de trabajo por sucursal. Gestión de 6 servidores independientes para el sistema de tarjetas de crédito. Atención y soporte a más de 6000 usuarios. Instalación, Soporte y Actualizaciones en sistema de cajas POS. Administrador, Implementación y mantenimiento de Sistema Garantía extendida – control de interfaces. Encargado del mantenimiento de aplicativo de tarjetas de créditos financieros CARREFOUR entidad CETELEM. Administrador en Sistema de Tarjetas de Crédito multiplataforma (Windows – UNIX). Soporte, Control de procesos y transacciones en Servidor Pago Fácil. " ,
+      "summary": "Responsable del laboratorio de infraestructura tecnológica para una de las cadenas de retail más importantes del país, administrando plataformas distribuidas utilizadas por cientos de sucursales.",
       "highlights": [
-        "Started the company"
-      ]
+        "Administración de más de 120 servidores distribuidos.",
+        "Soporte tecnológico para más de 6000 usuarios.",
+        "Administración de infraestructura Windows y UNIX.",
+        "Implementación y mantenimiento de sistemas POS.",
+        "Administración del sistema financiero de tarjetas de crédito.",
+        "Gestión de interfaces entre plataformas críticas.",
+        "Soporte a sistemas de Pago Fácil.",
+        "Coordinación de despliegues de software en sucursales."
+      ],
+      "achievements": [
+        "Administración de infraestructura distribuida de misión crítica.",
+        "Soporte operativo para miles de usuarios.",
+        "Alta disponibilidad de plataformas comerciales.",
+        "Optimización de procesos de soporte e implementación."
+      ],
+      "technologies": ["Windows Server", "UNIX", "POS", "Networking", "Bases de Datos", "TCP/IP", "Administración de Servidores"]
     },
     {
       "name": "Hasar Sistemas",
-      "position": "Analista de soporte de aplicaciones",
+      "position": "Application Support Analyst",
       "url": "https://grupohasar.com/",
       "startDate": "2006",
       "endDate": "2008",
-      "summary": "Proyecto Intellicard Autorizador de tarjetas de crédito con base en laboratorio de clientes como Disco y Walmart.",
+      "summary": "Participación en el desarrollo e implementación del proyecto Intellicard, plataforma de autorización de tarjetas de crédito utilizada por importantes cadenas comerciales.",
       "highlights": [
-        "Started the company"
-      ]
+        "Implementación de soluciones financieras.",
+        "Soporte técnico especializado.",
+        "Diagnóstico y resolución de incidentes.",
+        "Integración con plataformas de clientes."
+      ],
+      "technologies": ["Windows", "SQL", "Networking", "Aplicaciones Financieras"]
     },
     {
-      "name": "Repsol - YPF",
-      "position": "Analista de soporte de aplicaciones",
+      "name": "Repsol YPF",
+      "position": "Application Support Analyst",
       "url": "",
       "startDate": "2005",
       "endDate": "2007",
-      "summary": "Implementación Software ERP \"DEBO\" en la Red Nacional de Estaciones de servicio REPSOL-YPF. Instalación, configuración de surtidores, terminales, usuarios, permisos, puesta en marcha y capacitación de usuarios.",
+      "summary": "Participación en la implementación nacional del sistema ERP DEBO para estaciones de servicio, realizando instalación, configuración, puesta en marcha y capacitación a usuarios finales.",
       "highlights": [
-        "Started the company"
-      ]
+        "Implementación del ERP en estaciones de servicio.",
+        "Configuración de surtidores y terminales.",
+        "Administración de usuarios y permisos.",
+        "Capacitación a personal operativo.",
+        "Soporte post implementación."
+      ],
+      "technologies": ["Windows", "ERP", "SQL", "Networking"]
     }
   ],
   "volunteer": [{
@@ -150,24 +318,66 @@
   }],
   "certificates": [
     {
-    "name": "Scality Advanced Operations",
-    "date": "14-03-2019",
-    "issuer": "Scality",
-    "url": "https://images.credential.net/embed/4vf9j4bq.png"
-  },
-  {
-    "name": "VMware vSphere: Install, Configure, Manage [V6.5]",
-    "date": "07-07-2017",
-    "issuer": "HPE",
-    "url": "https://media.licdn.com/dms/image/v2/C512DAQGJ1kSF2JhIxg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1601378707528?e=1764784800&v=beta&t=z1IlyubKMpEdNo6NBacK4MEbNP3OWMrLCP9HvQI8I-E"
-  },
-  {
-    "name": "HPE Hyper Converged System Administration",
-    "date": "24-08-2017",
-    "issuer": "HPE",
-    "url": "https://media.licdn.com/dms/image/v2/C512DAQEOrk5PVYITFQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1602185916499?e=1764784800&v=beta&t=cWqs153pYZjVQQDwV-ktoKGMWLXMJxvzijGI3B66EfQ"
-  }
-],
+      "name": "VMware vSphere: Install, Configure, Manage (V6.5)",
+      "date": "07-07-2017",
+      "issuer": "HPE",
+      "url": "https://media.licdn.com/dms/image/v2/C512DAQGJ1kSF2JhIxg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1601378707528?e=1764784800&v=beta&t=z1IlyubKMpEdNo6NBacK4MEbNP3OWMrLCP9HvQI8I-E"
+    },
+    {
+      "name": "Scality Advanced Operations",
+      "date": "14-03-2019",
+      "issuer": "Scality",
+      "url": "https://images.credential.net/embed/4vf9j4bq.png"
+    },
+    {
+      "name": "HPE Hyper Converged System Administration",
+      "date": "24-08-2017",
+      "issuer": "HPE",
+      "url": "https://media.licdn.com/dms/image/v2/C512DAQEOrk5PVYITFQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1602185916499?e=1764784800&v=beta&t=cWqs153pYZjVQQDwV-ktoKGMWLXMJxvzijGI3B66EfQ"
+    }
+  ],
+  "technicalSkills": [
+    {
+      "category": "Cloud",
+      "items": ["Microsoft Azure", "Google Cloud Platform (GCP)"]
+    },
+    {
+      "category": "Contenedores",
+      "items": ["Docker", "Docker Compose", "Kubernetes"]
+    },
+    {
+      "category": "Sistemas Operativos",
+      "items": ["Linux", "Ubuntu", "Debian", "CentOS", "Windows Server"]
+    },
+    {
+      "category": "Virtualización",
+      "items": ["VMware vSphere", "ESXi"]
+    },
+    {
+      "category": "Automatización",
+      "items": ["Python", "Bash", "PowerShell"]
+    },
+    {
+      "category": "Infraestructura",
+      "items": ["HAProxy", "Nginx", "DNS", "DHCP", "VPN", "TCP/IP", "Routing", "Switching"]
+    },
+    {
+      "category": "Seguridad",
+      "items": ["DevSecOps", "Hardening", "OWASP", "WAF", "Vulnerability Assessment"]
+    },
+    {
+      "category": "Bases de Datos",
+      "items": ["MySQL", "MongoDB"]
+    },
+    {
+      "category": "Desarrollo",
+      "items": ["PHP", "JavaScript", "TypeScript", "Node.js", "HTML", "CSS"]
+    },
+    {
+      "category": "Control de Versiones",
+      "items": ["Git", "GitHub"]
+    }
+  ],
   "publications": [{
     "name": "Publication",
     "publisher": "Company",
@@ -326,59 +536,24 @@
   }],
   "projects": [
     {
-      "name": "Use ChatGPT API from python",
+      "name": "Plataforma de Automatización con IA",
       "isActive": true,
-      "description": "App de consola para interactuar con la API de ChatGPT desde Python",
-      "highlights": [
-        "100% libre"
-      ],
-      "github": "https://github.com/jpgladich/api_chatgpt"
+      "description": "Desarrollo de asistentes inteligentes basados en modelos GPT para automatizar consultas técnicas, soporte de infraestructura y documentación operativa."
     },
     {
-      "name": "Scraping MercadoLibre",
+      "name": "Herramientas de Automatización para Seguridad",
       "isActive": true,
-      "description": "Scraping de productos de MercadoLibre con datos de precios en dolares y pesos al cambio no oficial",
-      "highlights": [
-        "100% libre"
-      ],
-      "github": "https://github.com/jpgladich/ml_scraper"
+      "description": "Desarrollo de herramientas en Python orientadas al análisis de infraestructura, automatización de auditorías y evaluación de vulnerabilidades."
     },
     {
-      "name": "Search Vuln",
+      "name": "Automatización DevOps",
       "isActive": true,
-      "description": "Herramienta de línea de comandos sin conexión que busca archivos binarios [GTFOBins](https://gtfobins.github.io/) que pueden usarse para eludir las restricciones de seguridad locales en sistemas mal configurados.",
-      "highlights": [
-        "Privado"
-      ],
-      "github": ""
+      "description": "Implementación de scripts y herramientas para automatizar despliegues, administración de infraestructura, procesamiento de información y tareas repetitivas en entornos Linux y Cloud."
     },
     {
-      "name": "Finanzas, gráficos y análisis",
+      "name": "Desarrollo Full Stack",
       "isActive": true,
-      "description": "App frontend y backend para análisis de finanzas y gráficos, bot de telegram para alertas de precios, variaciones y análisis de mercado. Dollar Blue, Bitcoin, Ethereum, etc.",
-      "highlights": [
-        "Privado"
-      ],
-      "github": ""
-    },
-    {
-      "name": "Chatbot IA",
-      "isActive": true,
-      "description": "Chatbot IA con lenguaje natural, entrenado con GPT-3, para responder preguntas de tecnicos de sistemas y redes como ayuda de soporte.",
-      "highlights": [
-        "Privado"
-      ],
-      "github": ""
-    },
-    {
-      "name": "Nmap scripting .nse",
-      "isActive": true,
-      "description": "Scripts de Nmap para automatizar tareas de escaneo de red y análisis de vulnerabilidades.",
-      "highlights": [
-        "Privado"
-      ],
-      "github": ""
+      "description": "Desarrollo de aplicaciones web utilizando PHP, Node.js y JavaScript, integrando APIs, bases de datos y servicios externos."
     }
-
   ]
 }

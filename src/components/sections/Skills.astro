@@ -3,89 +3,61 @@ title: "My Skills"
 description: "This is the skills file"
 
 import Section from "../Section.astro"
-import Docker from "@/icons/docker.astro"
-import Kubernetes from "@/icons/kubernetes.astro"
-import Python from "@/icons/python.astro"
-import Bash from "@/icons/bash.astro"
-import C from "@/icons/c.astro"
-import Powershell from "@/icons/powershell.astro"
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import MongoDB from "@/icons/mongo.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import { skills } from "@cv"
-import Swift from "@/icons/swift.astro"
-import SwiftUI from "@/icons/swiftui.astro"
-import Kotlin from "@/icons/kotlin.astro"
-import Flutter from "@/icons/flutter.astro"
 
-const SKILLS_ICONS: Record<string, any> = {
-  Docker,
-  Kubernetes,
-  Python,
-  Bash,
-  C,
-  Powershell,
-  HTML,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  MongoDB,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  Kotlin,
-  Flutter,
-}
+import { skill } from "@cv"
+const { groups } = skill
+
 ---
 
-<Section title="Habilidades">
-  <ul>
-    {
-      skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
-
-        return (
-          <li>
-            {Icon && <Icon />} <span>{name}</span>
-          </li>
-        )
-      })
-    }
-  </ul>
+<Section title="Tecnologías y Herramientas">
+  {groups.map((group: { name: string; items: string[] }) => (
+    <div class="skill-group">
+      <h3>{group.name}</h3>
+      <ul class="skills-list">
+        {group.items.map((item: string) => <li>{item}</li>)}
+      </ul>
+    </div>
+  ))}
 </Section>
 
 <style>
+  .skill-group {
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: #333;
+  }
+
   ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   li {
     align-items: center;
-    background: #eee;
-    border-radius: 6px;
-    color: rgb(0, 0, 0);
+    color: #444;
     display: flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    gap: 4px;
-    padding: 0.2rem 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    padding-left: 1.2em;
+    position: relative;
+  }
+
+  li::before {
+    content: "•";
+    color: #666;
+    position: absolute;
+    left: 0;
   }
 </style>

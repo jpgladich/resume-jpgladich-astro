@@ -90,7 +90,22 @@ const { image, summary, url } = basics
     display: none !important;
   }
 
+  @page {
+    margin: 0.75in 0.5in;
+    size: letter;
+  }
+
   @media print {
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      padding: 0.5in !important;
+      margin: 0 !important;
+    }
+
     .no-print {
       display: none !important;
     }

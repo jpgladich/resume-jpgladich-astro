@@ -27,3 +27,6 @@ pnpm-debug.log*
 
 # IDE/editor folders
 .vscode/
+
+# Ignorar scripts de deploy
+deploy.sh

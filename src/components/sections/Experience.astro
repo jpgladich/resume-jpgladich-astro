@@ -5,19 +5,18 @@ description: "This is the experience"
 import Section from "../Section.astro"
 import { work } from "@cv"
 ---
-
-<Section title="Experiencia laboral">
+<p></p>
+<Section title="Experiencia profesional">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary, highlights, url }) => {
+      work.map(({ name, startDate, endDate, position, summary, highlights, achievements, technologies, url }: { name: string, startDate: string, endDate: string | null, position: string, summary: string, highlights?: string[], achievements?: string[], technologies?: string[], url?: string }) => {
         const startYear = startDate;
-        const endYear = endDate ?? "Actual";
-
+        const endYear = endDate ?? "Actualidad";
 
         return (
           <li key={name}>
             <article>
-              <header style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap" }}>
+              <header>
                 <div>
                   <h3>
                     {url ? (
@@ -28,18 +27,39 @@ import { work } from "@cv"
                       name
                     )}
                   </h3>
-                  <h4>&bull; {position}</h4>
+                  <h4>{position}</h4>
                 </div>
-
-              <div>
-                <time dateTime={startDate}>{startYear}</time> - <time dateTime={endDate}>{endYear}</time>
-              </div>
-
+                <div>
+                  <time dateTime={startDate}>{startYear}</time> – <time dateTime={endDate ?? undefined}>{endYear}</time>
+                </div>
               </header>
 
-              <footer>
-                <p>{summary}</p>
-              </footer>
+              <p>{summary}</p>
+
+              {highlights && highlights.length > 0 && (
+                <div class="highlights">
+                  <h5>Principales responsabilidades</h5>
+                  <ul class="highlights-list">
+                    {highlights.map((h: string) => <li>{h}</li>)}
+                  </ul>
+                </div>
+              )}
+
+              {achievements && achievements.length > 0 && (
+                <div class="highlights">
+                  <h5>Logros destacados</h5>
+                  <ul class="highlights-list">
+                    {achievements.map((a: string) => <li>{a}</li>)}
+                  </ul>
+                </div>
+              )}
+
+              {technologies && technologies.length > 0 && (
+                <div class="technologies">
+                  <h5>Tecnologías</h5>
+                  <p class="tech-list">{technologies.join(" • ")}</p>
+                </div>
+              )}
             </article>
           </li>
         )
@@ -55,15 +75,24 @@ import { work } from "@cv"
     display: flex;
     flex-direction: column;
     gap: 32px;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
   }
 
   article h3 {
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     color: #111;
+    margin: 0 0 4px 0;
   }
 
   article a {
     color: #111;
+    text-decoration: none;
   }
 
   article a:hover {
@@ -71,56 +100,93 @@ import { work } from "@cv"
   }
 
   article h4 {
-    color: #222;
-    font-weight: 400;
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+  }
+
+  article p {
+    color: #444;
+    font-size: 0.9rem;
+    margin: 0 0 12px 0;
+    line-height: 1.5;
+  }
+
+  .highlights {
+    margin-top: 12px;
+  }
+
+  .highlights h5,
+  .technologies h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .highlights-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .highlights-list li {
+    font-size: 0.9rem;
+    color: #444;
+    list-style: none;
+    padding-left: 1.2em;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .highlights-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #666;
+  }
+
+  .technologies {
+    margin-top: 12px;
+  }
+
+  .tech-list {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.4;
   }
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+    gap: 16px;
   }
 
   time {
-    color: #555;
+    color: #777;
     font-size: 0.85rem;
-    min-width: 102px;
+    min-width: 120px;
+    text-align: right;
     cursor: default;
-  }
-
-  [data-title]:hover:after {
-    opacity: 1;
-    transition: all 0.1s ease-in-out 0.5s;
-    visibility: visible;
-  }
-
-  [data-title]:after {
-    content: attr(data-title);
-    background-color: #333;
-    color: #fff;
-    font-size: 0.75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;
-    position: absolute;
-    padding: 0.2rem 0.5rem;
-    bottom: -1.4rem;
-    left: 50%;
-    white-space: nowrap;
-    box-shadow: 1px 1px 1px #222222;
-    opacity: 0;
-    border: 1px solid #111111;
-    z-index: 99999;
-    visibility: hidden;
-    border-radius: 6px;
-  }
-
-  [data-title] {
-    position: relative;
+    flex-shrink: 0;
   }
 
   @media (max-width: 700px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
     time {
-      text-align: right;
+      text-align: left;
     }
   }
 </style>
